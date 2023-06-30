@@ -200,7 +200,7 @@ header {
 }
 
 .about-program-details {
-  background-image: url(/Assets/conference11.jpg), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-image: url(Assets/conference11.jpg), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
@@ -208,14 +208,14 @@ header {
 }
 
 .about-program-details1 {
-  background-image: url(/Assets/conference1.jpg), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-image: url(Assets/conference1.jpg), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .about-program-details2 {
-  background-image: url(/Assets/conference.jpg), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-image: url(Assets/conference.jpg), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
