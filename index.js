@@ -4,8 +4,8 @@ const closeBtn = document.querySelector('.closebtn');
 const menuLists = document.querySelectorAll('.menu-list');
 const featureSection = document.querySelector('.feature-section');
 const seeMoreBtn = document.querySelector('.more-button');
-const spanMore = document.querySelector('.more-span')
-let twoSpeakers = []
+const spanMore = document.querySelector('.more-span');
+let twoSpeakers = [];
 let seeMore = false;
 hamburger.addEventListener('click', () => {
   navtext.style.display = 'block';
@@ -61,7 +61,7 @@ const speakers = [
 ];
 
 function createspeakers() {
-  featureSection.innerHTML = ''
+  featureSection.innerHTML = '';
   const speakersElement = twoSpeakers.map((speaker) => {
     const element = `<div class="feature">
   <div>
@@ -73,9 +73,9 @@ function createspeakers() {
   <p class="description">${speaker.description}</p>
 </div>
 </div>`;
-return element; 
-  }).join('')
-  featureSection.insertAdjacentHTML('beforeend', speakersElement)
+    return element;
+  }).join('');
+  featureSection.insertAdjacentHTML('beforeend', speakersElement);
 }
 
 function determineScreenSize() {
@@ -84,22 +84,22 @@ function determineScreenSize() {
 
 window.addEventListener('resize', () => {
   createTwoSpeakers();
-})
+});
 window.addEventListener('DOMContentLoaded', () => {
   createTwoSpeakers();
-})
+});
 
 function createTwoSpeakers() {
-  twoSpeakers = speakers.slice()
-  if (determineScreenSize()){
-    twoSpeakers = speakers.slice(0,2);
+  twoSpeakers = speakers.slice();
+  if (determineScreenSize()) {
+    twoSpeakers = speakers.slice(0, 2);
   }
   createspeakers();
-} 
+}
 
 seeMoreBtn.addEventListener('click', () => {
- seeMore = !seeMore;
-  twoSpeakers = seeMore ? speakers.slice() : speakers.slice(0,2)
+  seeMore = !seeMore;
+  twoSpeakers = seeMore ? speakers.slice() : speakers.slice(0, 2);
   createspeakers();
- spanMore.textContent = seeMore ? 'Less' : 'More';
-})
+  spanMore.textContent = seeMore ? 'Less' : 'More';
+});
