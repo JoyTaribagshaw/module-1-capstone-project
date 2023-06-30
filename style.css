@@ -39,7 +39,7 @@ header {
 }
 
 .first-section {
-  background-image: url(/Assets/pexels-karolina-grabowska-7679649.jpg);
+  background-image: url(/Assets/pexels-karolina-grabowska-5399043.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -269,7 +269,7 @@ li {
 .top-section,
 .navbar-container,
 .footer,
-.mobile-menu {
+.mobile-menu, .whole-program {
   display: none;
 }
 
@@ -278,6 +278,22 @@ li {
   .button,
   .more {
     display: none;
+  }
+
+  .whole-program {
+    display: flex;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: -0.1px;
+text-decoration-line: underline;
   }
 
   .logo {
