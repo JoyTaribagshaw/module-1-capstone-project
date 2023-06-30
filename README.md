@@ -101,6 +101,10 @@ To run tests, click on inspect to open the browser dev tools where you can inspe
 You can deploy this project using:
 Github pages.
 
+### LIVE DEMO
+
+- [LIVE DEMO](https://joytaribagshaw.github.io/module-1-capstone-project/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -144,7 +148,7 @@ If you like this project give it a ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to give a warm thank you to [Cindy Shin](https://www.behance.net/adagio07)
+I would like to give a warm thank you to [Cindy Shin](https://www.behance.net/adagio07) for the design template.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
