@@ -48,7 +48,7 @@ header {
 
 .about-first-section {
   background-image: url(/Assets/pexels-karolina-grabowska-5399043.jpg), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  background-blend-mode: overlay;;
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -242,6 +242,18 @@ header {
   color: var(--primary);
 }
 
+.p-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  align-items: center;
+  list-style-type: none;
+}
+
 .button {
   display: flex;
   justify-content: center;
@@ -270,6 +282,54 @@ header {
   .button,
   .more {
     display: none;
+  }
+
+  .top-section {
+    display: flex;
+    background: #3e3e3e;
+  }
+
+  .top-section-ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .top-section-list {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 2em;
+    list-style-type: none;
+  }
+
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    padding: 1em 4em;
+    align-items: center;
+  }
+
+  .navbar-items {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+  }
+
+  .navbar-items li a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: var(--dark);
+  }
+
+  .navbar-items li a:active {
+    color: var(--primary);
+  }
+
+  .navbar-items li:last-child {
+    border: 5px solid var(--primary);
+    padding: 8px;
   }
 
   .menu-link-desktop {
