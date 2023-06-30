@@ -47,6 +47,11 @@ header {
 }
 
 .about-first-section {
+  background-image: url(/Assets/pexels-karolina-grabowska-5399043.jpg), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-blend-mode: overlay;;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin: 12px 0;
   text-align: center;
   padding: 20px 13px 20px 13px;
@@ -69,6 +74,7 @@ header {
   border: 2px solid #fff;
   padding: 10px;
   text-align: justify;
+  color: #fff;
 }
 
 .about-one {
@@ -299,7 +305,6 @@ header {
   }
 
   .about-first-section {
-    margin: 12px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -309,10 +314,6 @@ header {
     .top-section {
       display: flex;
       background: #3e3e3e;
-    }
-
-    .first-section {
-      margin: 70px 200px 70px 40px;
     }
 
     .feature-section {

@@ -43,12 +43,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 200px 13px 70px 20px;
+  padding: 100px 13px 200px 20px;
 }
 
 .second-section {
   width: 100%;
   background-color: #3b3e45;
+  padding-bottom: 30px;
 }
 
 .third-section {
@@ -283,7 +284,7 @@ li {
   }
 
   .first-section {
-    padding: 70px 200px 70px 40px;
+    padding: 70px 200px 200px 40px;
     background-image: url(/Assets/pexels-karolina-grabowska-7679649.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -350,7 +351,7 @@ li {
     display: flex;
     flex-direction: row;
     background: #fff;
-    padding: 0 4em;
+    padding: 1em 4em;
     align-items: center;
   }
 
