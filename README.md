@@ -23,9 +23,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 MY PORTFOLIO <a name="about-project"></a>
+# 📖 WOMEN IN TECH MENTORSHIP PROGRAM. <a name="about-project"></a>
 
-*MY PORTFOLIO* is my microverse portfolio project.
+*Women in Tech Mentorship Program* is a website that gives more information about the Women in Tech Annual Mentorship program. It is my first microverse capstone project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,12 +47,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- *Index Page*
-- *Social Media*
+- *Fully responsive for all screen sizes*
+- *Social Media publicity*
 - Use the Figma design for the project😊👌
 - Use the semantics elements💯
-- Use the validation HTML for the form .🚀
-- Use Form spree for the contact form 😃👍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +94,7 @@ To run the project, execute the following command:
 
   ### Run tests
 
-To run tests, click on inspect to open the browser dev tools where you can inspect the entire HTML and CSS code. 
+To run tests, click on inspect to open the browser dev tools where you can inspect the entire HTML and CSS code and the console for JavaScript code. 
 
 ### Deployment
 
@@ -116,26 +114,11 @@ Github pages.
 - LinkedIn: [Joy](https://www.linkedin.com/in/joy-tari-bagshaw-b8b891236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlJIF9fsfQCO4UIewGNO%2B%2FQ%3D%3D)
 
 
-👤 *Noel Foka*
-
-- GitHub: [noelfoka](https://github.com/noelfoka)
-- Twitter: [noelnomgne](https://twitter.com/noelnomgne)
-- LinkedIn: [noelfoka](https://www.linkedin.com/in/[joy-tari-bagshaw-b8b891236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlJIF9fsfQCO4UIewGNO%2B%2FQ%3D%3D](https://www.linkedin.com/in/no%C3%ABl-nomgne-foka-063013231/))
-
-
-👤 Imo Daniel
-
-- GitHub: [@Danny-imo](https://github.com/Danny-imo)
-- Twitter: [@danielimo758](https://twitter.com/danielimo758)
-- LinkedIn: [Imo Daniel](https://linkedin.com/in/Imo Daniel)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-**Add a contact form and finish the mobile version**
+**Add a registration page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,7 +144,8 @@ If you like this project give it a ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse and my code reveiwer for making this project possible
+I would like to give a warm thank you to [Cindy Shin](https://www.behance.net/adagio07)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
