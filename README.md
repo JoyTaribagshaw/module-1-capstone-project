@@ -2,7 +2,7 @@
 # 📗 Table of Contents
 
 - [� Table of Contents](#-table-of-contents)
-- [📖 MY PORTFOLIO ](#-my-portfolio-)
+- [📖 WOMEN IN TECH MENTORSHIP PROGRAM ](#-women-intech-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Live Server](#live-server)
@@ -61,7 +61,7 @@
 To get a local copy up and running, follow these steps.
 
 - [ ] Clone the repo from here:
-  - https://github.com/JoyTaribagshaw/My-Portfolio 
+  - https://github.com/JoyTaribagshaw/module-1-capstone-project 
 
 ### Prerequisites
 
@@ -75,14 +75,14 @@ In order to run this project you need:
 ### Setup
 
 - Clone this repository from this link: 
-[Github](https://github.com/JoyTaribagshaw/My-Portfolio)
-- Navigate to the clone reppository by running cd `My-Portfolio`
+[Github](https://github.com/JoyTaribagshaw/module-1-capstone-project)
+- Navigate to the clone reppository by running cd `module-1-capstone-project`
 
 ### Install
 
 Install this project with:
 
-  cd portfolio-version
+  cd module-1-capstone-project-version
   npm install
 
 
@@ -128,7 +128,7 @@ Github pages.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/JoyTaribagshaw/My-portfolio/issues/).
+Feel free to check the [issues page](https://github.com/JoyTaribagshaw/module-1-capstone-project/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,7 +153,7 @@ I would like to give a warm thank you to [Cindy Shin](https://www.behance.net/ad
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/JoyTaribagshaw/My-Portfolio/blob/main/LICENSE) licensed..
+This project is [MIT](https://github.com/JoyTaribagshaw/module-1-capstone-project/blob/main/LICENSE) licensed..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
