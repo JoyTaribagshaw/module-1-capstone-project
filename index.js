@@ -82,13 +82,6 @@ function determineScreenSize() {
   return window.innerWidth < 768;
 }
 
-window.addEventListener('resize', () => {
-  createTwoSpeakers();
-});
-window.addEventListener('DOMContentLoaded', () => {
-  createTwoSpeakers();
-});
-
 function createTwoSpeakers() {
   twoSpeakers = speakers.slice();
   if (determineScreenSize()) {
@@ -96,6 +89,13 @@ function createTwoSpeakers() {
   }
   createspeakers();
 }
+
+window.addEventListener('resize', () => {
+  createTwoSpeakers();
+});
+window.addEventListener('DOMContentLoaded', () => {
+  createTwoSpeakers();
+});
 
 seeMoreBtn.addEventListener('click', () => {
   seeMore = !seeMore;
