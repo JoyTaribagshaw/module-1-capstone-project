@@ -103,6 +103,12 @@ header {
   transform: scale(1.2);
 }
 
+.feature {
+  display: flex;
+  margin: 10px 12px;
+  gap: 12px;
+}
+
 .feature:hover {
   transition: all 0.3s linear;
   border: 1px solid #000;
@@ -162,12 +168,6 @@ header {
 
 .more-span {
   padding-right: 10px;
-}
-
-.feature {
-  display: flex;
-  margin: 10px 12px;
-  gap: 12px;
 }
 
 .theme-intro {
