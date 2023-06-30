@@ -40,10 +40,20 @@ header {
 
 .about-theme-intro {
   color: var(--primary);
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+  line-height: 28px;
+  letter-spacing: -0.8px;
+  padding-top: 80px;
 }
 
 .about-theme {
   color: var(--primary);
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  line-height: 28px;
+  letter-spacing: -0.8px;
+  padding-top: 30px;
 }
 
 .about-first-section {
@@ -52,15 +62,56 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 12px 0;
   text-align: center;
-  padding: 20px 13px 20px 13px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.about-second-section {
-  height: 105vh;
+.about-second-section, .about-section-logo {
   width: 100%;
-  background-color: #d3d3d3;
+  background-color: #fff;
+}
+
+.about-section-title {
+  width: 90%;
+    display: flex;
+    justify-content: center;
+    color: var(--dark);
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    line-height: 28px;
+    letter-spacing: -0.8px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.about-section-summit {
+  display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    line-height: 28px;
+    letter-spacing: -0.8px;
+    margin: auto;
+    padding: 15px 10px 10px;
+}
+
+.bold-logo {
+  width: 90%;
+    display: flex;
+    justify-content: center;
+    color: var(--dark);
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    line-height: 28px;
+    letter-spacing: -0.8px;
+    margin: auto;
+    padding: 60px 0;
+    text-align: center;
 }
 
 .about-third-section {
@@ -70,7 +121,7 @@ header {
 }
 
 .about-intro-text {
-  margin: 40px 0;
+  margin: 40px 16px 100px;
   border: 2px solid #fff;
   padding: 10px;
   text-align: justify;
@@ -135,7 +186,6 @@ header {
   padding: 2px 10px 10px;
 }
 
-.about-program-details,
 .about-program-details1,
 .about-program-details2 {
   display: flex;
@@ -143,7 +193,7 @@ header {
   justify-content: center;
   margin: 0 auto 25px;
   width: 90%;
-  height: 25vh;
+  height: 40vh;
   border: 1px solid #fff;
   text-align: center;
 }
@@ -177,7 +227,6 @@ header {
 
 .about-footer {
   display: block;
-  height: 40vh;
   width: 100%;
   margin-top: 20px;
 }
@@ -198,8 +247,9 @@ header {
 }
 
 .about-footer-one {
-  height: 20vh;
   background-color: #414246;
+  padding: 25px 30px
+  ;
 }
 
 .about-partner-icon {
@@ -208,15 +258,16 @@ header {
 
 .about-partner-img {
   display: flex;
+  justify-content: center;
   gap: 20px;
   margin-top: 20px;
 }
 
 .about-footer-two {
-  display: flex;
-  flex-direction: column;
-  height: 15vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background: #f2f2f2;
+  padding: 20px;
 }
 
 .about-wit {
@@ -229,7 +280,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .about-rights {
@@ -280,13 +330,32 @@ li {
 @media screen and (min-width: 768px) {
   .navbar-mobile,
   .button,
-  .more {
+  .more, .otu {
     display: none;
   }
 
   .top-section {
     display: flex;
     background: #3e3e3e;
+  }
+
+  .bold-logo {
+    width: 40%;
+      display: flex;
+      justify-content: center;
+      color: var(--dark);
+      font-size: 50px;
+      font-family: 'Lato', sans-serif;
+      line-height: 28px;
+      letter-spacing: -0.8px;
+      margin: 20px auto 50px;
+      padding: 60px 0;
+      text-align: center;
+      border: 2px solid grey;
+  }
+
+  .bold-class{
+    width: 100%;
   }
 
   .top-section-ul {
@@ -361,15 +430,9 @@ li {
   .about-program-container {
     display: flex;
     gap: 12px;
-    margin: 0 16px;
+    margin: 0 150px;
   }
 
-  .about-first-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 20px 13px 20px 13px;
 
     .top-section {
       display: flex;
@@ -379,8 +442,8 @@ li {
     .feature-section {
       display: grid;
       grid-template-columns: 2fr 2fr;
-      width: 100%;
       gap: 30px;
+      margin: 0 160px 30px;
     }
 
     .program-details {
@@ -408,6 +471,14 @@ li {
       transform: scale(1.2);
     }
 
+    .about-intro-text {
+      margin: 40px 160px 150px;
+      border: 2px solid #fff;
+      padding: 10px;
+      text-align: justify;
+      color: #fff;
+    }
+
     .program-container {
       height: 30vh;
       margin: 0 80px;
@@ -429,10 +500,6 @@ li {
       list-style-type: none;
     }
 
-    .second-section {
-      height: 50vh;
-    }
-
     .button {
       display: flex;
       justify-content: center;
@@ -448,5 +515,11 @@ li {
     .button-a {
       text-decoration: none;
     }
+
+    .about-footer-two {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: #f2f2f2;
+      padding: 50px;
+    }
   }
-}
