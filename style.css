@@ -39,7 +39,7 @@ header {
 }
 
 .first-section {
-  background-image: url(Assets\pexels-karolina-grabowska-7679649.jpg);
+  background-image: url(Assets/pexels-karolina-grabowska-7679649.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -378,7 +378,7 @@ li {
 
   .first-section {
     padding: 70px 400px 200px 100px;
-    background-image: url(/Assets/pexels-karolina-grabowska-7679649.jpg);
+    background-image: url(Assets/pexels-karolina-grabowska-7679649.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

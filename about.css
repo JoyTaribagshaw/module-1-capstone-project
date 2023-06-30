@@ -57,7 +57,7 @@ header {
 }
 
 .about-first-section {
-  background-image: url(/Assets/pexels-karolina-grabowska-5399043.jpg), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-image: url(Assets/pexels-karolina-grabowska-5399043.jpg), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
