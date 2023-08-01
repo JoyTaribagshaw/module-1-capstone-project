@@ -27,6 +27,8 @@
 
 *Women in Tech Mentorship Program* is a website that gives more information about the Women in Tech Annual Mentorship program. It is my first microverse capstone project.
 
+![WIT image](image.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
